@@ -11,3 +11,10 @@ a, b = 1, 1.65
 while a < 16385:
 	print(a, "euro(s)", b, "dollar(s)")
 	a, b = a*2, b*2
+
+	
+#Exercices 4.4
+b, c = 15, 1
+while c < 12:
+	print(b)
+	b, c = b*3, c+1
