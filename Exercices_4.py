@@ -18,3 +18,8 @@ b, c = 15, 1
 while c < 12:
 	print(b)
 	b, c = b*3, c+1
+
+largeur = 20
+hauteur = 25
+longueur = 50
+print ("largeur X hauteur X longueur = ", largeur * hauteur * longueur)
