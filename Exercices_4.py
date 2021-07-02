@@ -1,4 +1,6 @@
 #Exercice 4.2
+#Écrivez un programme qui affiche les 20 premiers termes de la table de multiplication par 7.
+
 a = 0
 b = 7
 while a < 20:
@@ -7,6 +9,10 @@ while a < 20:
 
 
 #Exercice 4.3
+#Écrivez un programme qui affiche une table de conversion de sommes d’argent exprimées en
+#euros, en dollars canadiens. La progression des sommes de la table sera « géométrique »,
+#comme dans l’exemple ci-dessous :
+
 a, b = 1, 1.65
 while a < 16385:
 	print(a, "euro(s)", b, "dollar(s)")
@@ -14,17 +20,28 @@ while a < 16385:
 
 	
 #Exercices 4.4
+#Écrivez un programme qui affiche une suite de 12 nombres dont chaque terme soit égal au
+#triple du terme précédent.
+
 b, c = 15, 1
 while c < 12:
 	print(b)
 	b, c = b*3, c+1
+	
 #Exercice 4.5
+#Écrivez un programme qui calcule le volume d’un parallélépipède rectangle dont sont fournis
+#au départ la largeur, la hauteur et la profondeur.
+
 largeur = 20
 hauteur = 25
 longueur = 50
 print ("largeur X hauteur X longueur = ", largeur * hauteur * longueur)
 
 # Exercice 4.6
+#Écrivez un programme qui convertit un nombre entier de secondes fourni au départ en un
+#nombre d’années, de mois, de jours, de minutes et de secondes (utilisez l’opérateur modulo : %
+#).
+
 #random seconds number:
 sec = 9258236253         
 
