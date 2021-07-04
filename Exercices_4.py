@@ -65,3 +65,38 @@ second = m % 60
 
 print (sec, "seconds are equal to :", year, "year(s)", month, "month(s)", day, "day(s)", hour, "hour(s)", minute, "minute(s)", second, "seconds")
 
+# Exercice 4.7
+#Écrivez un programme qui affiche les 20 premiers termes de la table de multiplication par 7, en
+#signalant au passage (à l’aide d’une astérisque) ceux qui sont des multiples de 3.
+#Exemple : 7 14 21 * 28 35 42 * 49 ...
+
+a = 0
+b = 7
+while (a < 20):
+    a = a + 1
+    c = a*b
+    if (c % 3 ==0):
+        print (c, "*", end =" ")
+    else:
+        print (c, end =" ")
+    
+# Exercice 4.8
+#Écrivez un programme qui calcule les 50 premiers termes de la table de multiplication par 13,
+#mais n’affiche que ceux qui sont des multiples de 7.    
+
+a = 0
+b = 13
+while (a < 50):
+    a = a + 1
+    c = a*b
+    if (c % 7 == 0):
+        print (c, end =" ")
+
+#Écrivez un programme qui affiche la suite de symboles suivante :
+
+a = 0
+b = 1
+while (a < 7):
+    a = a + 1
+    c = a * b
+    print (c*"*")
